@@ -39,7 +39,6 @@ The original dataset comprises 1,000 entries with 20 attributes. This project fo
     | Risk | Risk label (good/bad) | String |
 - The target variable Risk is transformed into Bad Risk (True/False) for binary classification.
 
----
 
 ## Methodology
 
@@ -132,7 +131,6 @@ The EDA phase provides insights into the dataset’s structure, distributions, a
     | F1-Score | 0.432 | 0.202 |
 - **Observation**: Logistic Regression outperforms KNN in Recall and F1-Score, making it better suited for detecting Bad Risk.
 
----
 
 ## Tools and Libraries
 
@@ -143,7 +141,6 @@ The EDA phase provides insights into the dataset’s structure, distributions, a
     - scikit-learn: Model building, evaluation, and cross-validation.
 - **Environment**: Jupyter Notebook
 
----
 
 ## Results and Discussion
 
