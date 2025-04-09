@@ -6,7 +6,6 @@ The "German Credit Classification" project leverages Logistic Regression to pred
 
 The original dataset comprises 1,000 entries with 20 attributes. This project focuses on exploratory data analysis (EDA), data preprocessing, model training, and performance evaluation, utilizing techniques such as handling imbalanced data and K-Fold cross-validation to optimize results.
 
----
 
 ## Objectives
 
@@ -15,7 +14,6 @@ The original dataset comprises 1,000 entries with 20 attributes. This project fo
 - Evaluate model performance using metrics like Precision, Recall, F1-Score, and Confusion Matrix.
 - Compare Logistic Regression with K-Nearest Neighbors (KNN) to identify the optimal approach.
 
----
 
 ## Dataset
 
@@ -99,10 +97,10 @@ The EDA phase provides insights into the dataset’s structure, distributions, a
     ![image.png](image3.png)
     
     - **Interpretation**:
-        - True Positives (TP): 43 (correctly predicted True).
-        - False Positives (FP): 87 (False predicted as True).
-        - True Negatives (TN): 123 (correctly predicted False).
-        - False Negatives (FN): 47 (True predicted as False).
+        - True Positives (TP): 12 (correctly predicted True).
+        - False Positives (FP): 18 (False predicted as True).
+        - True Negatives (TN): 192 (correctly predicted False).
+        - False Negatives (FN): 78 (True predicted as False).
     - Low recall indicates difficulty in identifying all Bad Risk cases.
 
 ### 5. K-Fold Cross-Validation
